@@ -215,15 +215,26 @@ $ bundle exec ruboty --load app.rb
 ```ruby
 source "https://rubygems.org"
 
-# Ruboty 本体
 gem "ruboty"
 
-# ハンドラ
 gem "ruboty-tanzaku", github: "osyo-manga/gem-ruboty-tanzaku"
 gem "ruboty-vimhelp"
 
 # アダプタを追加
 gem "ruboty-discord"
+```
+
+>>>
+
+#### CLI 上で動かす
+
+```
+$ bundle install
+# これで Discord と通信している状態になり
+# Discord 上の Bot がアクティブになって動作する
+# また Discord 上の Bot は発言のプレフィックスが
+# ruboty ではなくて『その Bot の名前』になるので注意
+$ bundle exec ruboty
 ```
 
 ---
