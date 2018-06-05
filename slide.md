@@ -238,7 +238,7 @@ gem "ruboty-discord"
 * こんな感じで簡単に Bot をつくることができる    <!-- .element: class="fragment" -->
 * ハンドラだけ用意しておけばいいので、他の SNS で動かすことが容易    <!-- .element: class="fragment" -->
   * スマートスピーカで動くアダプタを用意すれば…
-* Suby は Rails だけじゃないんだよ！！！    <!-- .element: class="fragment" -->
+* Ruby は Rails だけじゃないんだよ！！！    <!-- .element: class="fragment" -->
 * 学生LT の Discord には discord_bot開発部があるので興味がある人は来よう！！    <!-- .element: class="fragment" -->
 
 ---
